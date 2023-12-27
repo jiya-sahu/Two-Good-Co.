@@ -33,7 +33,7 @@ detscont1.addEventListener("mouseenter",function(){
   }) ;
   detscont2.addEventListener("mouseleave",function(){
     for (const img of imgs2) {
-      
+      img.style.opacity = 0;
     }
   }) ;
   detscont3.addEventListener("mouseenter",function(){
